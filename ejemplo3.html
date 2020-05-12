@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.progressbar.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.progressbar.min.js"></script>
+</head>
+
+<body>
+	
+<input id="bIniciar" type="button" value="Iniciar" />
+	
+<div id="Progressbar1"></div>
+	
+<div id="percen"></div>
+	
+<script type="text/javascript">
+/*
+$(function() {
+	$( "#Progressbar1" ).progressbar({
+		value: false 40
+	}); 
+});
+*/
+
+$('#bIniciar').click(function(){
+  var val = 0;
+  var interval = setInterval(function(){
+	val = val + 1;
+	$('#Progressbar1').progressbar({ value : val });
+	$('#percen').text(val + '%');
+	if(val == 100)
+		clearInterval(interval);
+  }, 50);
+});
+	
+</script>
+</body>
+</html>
