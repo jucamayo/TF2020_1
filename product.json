@@ -1,0 +1,51 @@
+[
+    {
+        "nombre": "Zapatillas",
+        "descripcion": "Marca A",
+        "precio": 125,
+        "cantidad": 10,
+        "imagen": "0001.jpg"
+    },
+    {
+        "nombre": "Buzos",
+        "descripcion": "Marca B",
+        "precio": 45,
+        "cantidad": 25,
+        "imagen": "0002.jpg"
+    },
+    {
+        "nombre": "Polos",
+        "descripcion": "Marca A",
+        "precio": 95,
+        "cantidad": 28,
+        "imagen": "0003.jpg"
+    },
+    {
+        "nombre": "Medias",
+        "descripcion": "Marca C",
+        "precio": 6,
+        "cantidad": 35,
+        "imagen": "0004.jpg"
+    },
+    {
+        "nombre": "Gorras",
+        "descripcion": "Marca B",
+        "precio": 25,
+        "cantidad": 15,
+        "imagen": "0005.jpg"
+    },
+    {
+        "nombre": "Chalinas",
+        "descripcion": "Marca A",
+        "precio": 18,
+        "cantidad": 5,
+        "imagen": "0006.jpg"
+    },
+    {
+        "nombre": "Pantalon",
+        "descripcion": "Marca B",
+        "precio": 65,
+        "cantidad": 75,
+        "imagen": "0007.jpg"
+    }
+]
