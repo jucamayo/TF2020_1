@@ -1,0 +1,23 @@
+[
+	{
+		"nom" : "Zapatillas",
+		"mar" : "Marca A",
+		"pre" : 125,
+		"can" : 10,
+		"img" : "0001.jpg"
+	},
+	{
+		"nom" : "Buzos",
+		"mar" : "Marca B",
+		"pre" : 45,
+		"can" : 25,
+		"img" : "0002.jpg"
+	},
+	{
+		"nom" : "Polos",
+		"mar" : "Marca C",
+		"pre" : 23,
+		"can" : 50,
+		"img" : "0003.jpg"
+	}
+]
